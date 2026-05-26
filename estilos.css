@@ -1,10 +1,41 @@
 .encabezado {
-    border: 2px solid red;
+    background-color: rgba(31, 31, 33);
+    height: 50px;
+    border-color: #33363a;
+}
+.segundo-encabezado {
+    background-color: rgba(21, 33, 52); 
+    height: 60px;
 }
 .cuerpo {
-    border: 2px solid blue;
-    height: 530px;
+    height: 525px;
+    background-color: rgba(27, 43, 69);
+    background-size: cover;
+    background-position: center;
+    /* El fondo se queda fijo en todo el contenedor */
+    padding-left: 10px;
+    padding-top: 10px;
+
+    
 }
-.pie {
-    border: 2px solid green;
+
+.tarjeta {
+    background-color: black;
+    width: 270px;
+    height: 350px;
+    margin-left: 10px;
+    border-radius: 15px;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-top: 10px;
+
+
+}
+.tareas {
+    background-color: rgb(88, 88, 88);
+    border-radius: 15px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+
 }
