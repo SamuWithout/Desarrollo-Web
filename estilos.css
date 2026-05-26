@@ -1,0 +1,10 @@
+.encabezado {
+    border: 2px solid red;
+}
+.cuerpo {
+    border: 2px solid blue;
+    height: 530px;
+}
+.pie {
+    border: 2px solid green;
+}
