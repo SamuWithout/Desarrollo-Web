@@ -1,33 +1,55 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgba(27, 43, 69);
+}
+
+.cuerpo {
+    min-height: calc(100vh - 110px); 
+    background-color: rgba(27, 43, 69);
+    padding-left: 10px;
+    padding-top: 10px;
+    box-sizing: border-box; 
+}
 .encabezado {
     background-color: rgba(31, 31, 33);
     height: 50px;
     border-color: #33363a;
+    
+    /* ACTIVAMOS FLEXBOX */
+    display: flex;
+    align-items: center;       
+    padding-left: 15px;        
+    box-sizing: border-box;
 }
+
+.encabezado-apps {
+    background-image: url('imagenes/aplicaciones.png');
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .segundo-encabezado {
     background-color: rgba(21, 33, 52); 
     height: 60px;
-}
-.cuerpo {
-    height: 525px;
-    background-color: rgba(27, 43, 69);
-    background-size: cover;
-    background-position: center;
-    /* El fondo se queda fijo en todo el contenedor */
-    padding-left: 10px;
-    padding-top: 10px;
 
-    
+    /* ACTIVAMOS FLEXBOX */
+    display: flex;
+    align-items: center; /* Centra el texto verticalmente de forma automática */
 }
 
 .tarjeta {
     background-color: black;
     width: 270px;
     height: 350px;
-    margin-left: 10px;
     border-radius: 15px;
     padding-top: 0px;
     padding-left: 0px;
-    margin-top: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
 
 
 }
